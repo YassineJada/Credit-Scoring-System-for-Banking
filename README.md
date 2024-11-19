@@ -29,6 +29,38 @@ Pour exécuter ce projet localement, suivez ces étapes :
    ```bash
    pip install -r requirements.txt
 
-Si le fichier requirements.txt n'est pas présent, installez ces bibliothèques :
+   Si le fichier requirements.txt n'est pas présent, installez ces bibliothèques :
    ```bash
    pip install flask numpy joblib
+
+3. Assurez-vous que le fichier model.joblib est présent dans le répertoire principal du projet.
+
+---
+
+## Utilisation
+1. Lancez l'application Flask :
+   ```bash
+   python app.py
+2. Accédez à l'application via votre navigateur à l'adresse suivante :
+   ```url
+   http://127.0.0.1:5000/
+3. Entrez les données du client via l'interface utilisateur et soumettez pour obtenir une prédiction.
+
+---
+
+## Fonctionnalités
+- Prédictions basées sur un modèle machine learning : Le modèle analyse les données fournies (par exemple, le revenu, l'historique de crédit) et fournit une réponse concernant l'éligibilité au crédit.
+- Interface utilisateur intuitive : Les utilisateurs peuvent interagir avec l'application via une interface simple et efficace.
+- Facilité d'intégration : Le projet est conçu pour être facilement intégrable dans des systèmes bancaires existants.
+
+---
+
+## Contributions
+Les contributions sont les bienvenues ! Pour proposer une modification ou une amélioration, ouvrez une pull request ou créez un ticket via l'onglet Issues.
+
+---
+
+## Remerciements
+Merci d'utiliser ce projet. Si vous avez des questions, n'hésitez pas à me contacter ou à consulter le dépôt pour plus d'informations.
+
+
