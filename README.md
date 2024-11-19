@@ -27,11 +27,11 @@ Pour exécuter ce projet localement, suivez ces étapes :
 
 2. Installer les dépendances requises :
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 Si le fichier requirements.txt n'est pas présent, installez ces bibliothèques :
    ```bash
-pip install flask numpy joblib
+   pip install flask numpy joblib
 
 3. Assurez-vous que le fichier model.joblib est présent dans le répertoire principal du projet.
 
