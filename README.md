@@ -32,7 +32,6 @@ Pour exécuter ce projet localement, suivez ces étapes :
 Si le fichier requirements.txt n'est pas présent, installez ces bibliothèques :
    ```bash
    pip install flask numpy joblib
-
 3. Assurez-vous que le fichier model.joblib est présent dans le répertoire principal du projet.
 
 ---
@@ -41,11 +40,9 @@ Si le fichier requirements.txt n'est pas présent, installez ces bibliothèques 
 1. Lancez l'application Flask :
    ```bash
    python app.py
-
 2. Accédez à l'application via votre navigateur à l'adresse suivante :
-   ```arduino
+   ```url
    http://127.0.0.1:5000/
-
 3. Entrez les données du client via l'interface utilisateur et soumettez pour obtenir une prédiction.
 
 ---
