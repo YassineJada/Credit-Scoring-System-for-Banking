@@ -38,11 +38,11 @@ Si le fichier requirements.txt n'est pas présent, installez ces bibliothèques 
 ## Utilisation
 1. Lancez l'application Flask :
    ```bash
-python app.py
+   python app.py
 
 2. Accédez à l'application via votre navigateur à l'adresse suivante :
    ```arduino
-http://127.0.0.1:5000/
+   http://127.0.0.1:5000/
 
 3. Entrez les données du client via l'interface utilisateur et soumettez pour obtenir une prédiction.
 
